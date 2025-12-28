@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: Check if a file exists
         run: |
-          if [ -f "config.yaml" ]; then
-            echo "::debug::config.yaml exists"
+          if [ -f "README.md" ]; then
+            echo "::debug::README.md exists"
           else
-            echo "::error::config.yaml is missing"
+            echo "::error::README.md is missing"
           fi
